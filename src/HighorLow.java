@@ -37,9 +37,7 @@ public class HighorLow
                 }
                 else // if it's an integer outside of 1 and 10 inclusive
                 {
-                    int trash = in.nextInt();
-                    in.nextLine();
-                    System.out.println("You entered an incorrect value, '" + trash + "'. You must enter a number between 1 and 10 inclusive.");
+                    System.out.println("You entered an incorrect value, '" + userValue + "'. You must enter a number between 1 and 10 inclusive.");
                 }
             }
             else if (in.hasNextDouble())
